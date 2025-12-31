@@ -13,7 +13,7 @@ def main():
     try:
         server.serve_forever()
     except KeyboardInterrupt:
-        print("\nBlank is going blank...")
+        print("\nShutting down...")
         server.shutdown()
 
 
