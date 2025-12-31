@@ -2,7 +2,7 @@ from server import GET, POST
 
 
 @GET("/{path}")
-def home(draft, skip, path):
+def home(draft, skip):
 	print(f"These are the query parameters: draft --> {draft}, skip --> {skip}")
 	# print(f"And this the great path parameter: {path}")
 	return "Welcome home, blank!"
